@@ -1,20 +1,56 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;  
+    box-sizing: border-box;
+
+
 }
 
-.container {
+body {
+    background-color: rgb(85, 2, 168);
+}
+
+
+
+/* Header Style */
+
+h1 {
+    font-weight: 800;
+    font-family: "Micro 5", sans-serif;
+    font-size: 60px;
     display: flex;
-    width: auto;
-    height: auto;
-
-
+    justify-content: center;
+    background-color: rgb(31, 1, 61);
+    color: white;
+    margin-bottom: 10px;
 }
 
 .select {
     display: flex;
     margin-bottom: 20px;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+input {
+    width: 300px;
+}
+
+.rangeBar-number {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+
+/* Container Style */
+.container {
+    display: flex;
+    width: auto;
+    height: auto;
+
 }
 
 .container-block {
@@ -27,6 +63,63 @@
 }
 
 .newDiv {
-    border: solid rebeccapurple 1px;
+    background-color: #ffffff;
+    border: solid #180133 1px;
+}
+
+
+/* Button Style */
+button {
+    width: 100px;
+    height: 25px;
+    border: solid #000638 1px;
+    margin-left: 7px;
+    border-radius: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#color-black {
+    background-color: black;
+    color: white;
+}
+
+#color-raimbow {
+    background-image: linear-gradient(85deg, #a9daca 0, #a5dbcf 3.33%, #a2dbd4 6.67%, #a0dbd9 10%, #9fdade 13.33%, #9fdae3 16.67%, #a0d9e7 20%, #a2d8eb 23.33%, #a6d7ee 26.67%, #aad6f0 30%, #aed5f2 33.33%, #b4d4f4 36.67%, #bad2f4 40%, #c0d0f4 43.33%, #c7cff3 46.67%, #cdcdf2 50%, #d3cbf0 53.33%, #d9caed 56.67%, #dfc8ea 60%, #e4c7e6 63.33%, #e9c6e2 66.67%, #edc5dd 70%, #f1c4d8 73.33%, #f3c3d3 76.67%, #f5c3ce 80%, #f6c3c9 83.33%, #f7c4c4 86.67%, #f7c4c0 90%, #f6c5bb 93.33%, #f4c6b7 96.67%, #f1c7b4 100%);
+    color:#000000 ;
+
+}
+
+#color-white {
+    background-color: white;
+}
+
+/* Footer */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #180133;
+    color: white;
+    font-family: "Micro 5", sans-serif;
+    font-size: 30px;
 }
 
